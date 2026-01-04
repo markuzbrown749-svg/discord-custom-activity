@@ -6,17 +6,17 @@ config = configparser.ConfigParser()
 config.read('config.ini')
 
 base_activity = {
-    'details': 'Custom details',
-    'state' : 'Custom state',
+    'details': '.',
+    'state' : '˚₊‧꒰ა ☆ ໒꒱ ‧₊˚',
     'assets': {
-        'large_image': 'image_name',
-        'large_text': 'Image text',
-        'small_image': 'small_image_name',
-        'small_text': 'Small image text'
+        'large_image': '633ed6f64f207049add707032d4f1d0f',
+        'large_text': '‧₊˚🖇️✩ ₊˚',
+        'small_image': '9be2daef9cec2cf505153955b6b69a58',
+        'small_text': 'Hey Netherite Knight!!'
     },
     'party': {
         'size': [1, 5]
-    }
+   }
 }
 
 def main():
